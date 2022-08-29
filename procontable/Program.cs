@@ -13,6 +13,7 @@ namespace procontable
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new forms.login());
+            //Application.Run(new forms.Principal());
         }
     }
 }

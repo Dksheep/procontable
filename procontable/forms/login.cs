@@ -133,11 +133,10 @@ namespace procontable.forms
 
                 /* Si encuentra el usuario */
                 if (npasa)
-                {
-                    MessageBox.Show("Login Completado.", nameform, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    // Form nPrincipal = new forms.principal.FrmPrincipal();
-                    //  this.Hide();
-                    // nPrincipal.Show();
+                {   
+                    this.Hide();
+                    forms.Principal formPrincipal = new forms.Principal();
+                    formPrincipal.Show();
                 }
                 else
                 {
